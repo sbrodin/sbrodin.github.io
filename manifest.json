@@ -1,0 +1,25 @@
+{
+  "short_name": "sbrodin",
+  "name": "Stanislas Brodin - Développeur web",
+  "icons": [
+    {
+      "src":"logo-sb_50.png",
+      "sizes": "50x50",
+      "type": "image/png"
+    },
+    {
+      "src":"logo-sb_500.png",
+      "sizes": "500x500",
+      "type": "image/png"
+    },
+    {
+      "src":"logo-sb_1500.png",
+      "sizes": "1500x1500",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./?utm_source=homescreen",
+  "background_color": "#ffffff",
+  "theme_color": "#c9e4f7",
+  "display": "standalone"
+}

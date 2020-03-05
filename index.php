@@ -1,0 +1,471 @@
+<!doctype html>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Stanislas Brodin - Développeur web full stack</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Stanislas Brodin - Développeur web full stack">
+        <meta name="author" content="Stanislas Brodin">
+        <meta name="theme-color" content="#c9e4f7">
+        <link href="logo-sb_50.png" rel="icon" type="image/png">
+        <link href="logo-sb_50.png" rel="apple-touch-icon" type="image/png">
+        <link href="style.min.css" rel="stylesheet" type="text/css">
+        <link href="manifest.json" rel="manifest">
+    </head>
+    <body>
+        <header class="clearfix" role="banner">
+            <nav class="menu" role="navigation">
+                <div class="wrapper">
+                    <ul class="menu-nav horizontal">
+                        <li><a href="#presentation"><span class="md">Présentation</span><span class="sm">Prés.</span></a></li>
+                        <li><a href="#experience"><span class="md">Expérience</span><span class="sm">Exp.</span></a></li>
+                        <li><a href="#divers">Divers</a></li>
+                        <li><a href="#projets_persos"><span class="md">Projets&nbsp;persos</span><span class="sm">Perso</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <anchor id="presentation"></anchor>
+        <section id="presentation_section" class="row">
+            <div class="wrapper">
+                <div id="basic-infos">
+                    <div>
+                        <img id="profile_pic" src="profil.png" alt="Photo de profil">
+                    </div>
+                    <div>
+                        <h1>Stanislas Brodin</h1>
+                        <h2>Développeur web full stack</h2>
+                        <h3>Ingénieur - Groupe ESEO</h3>
+                        <h3>Master of Health Informatics - Université de Wollongong (Australie)</h3>
+                    </div>
+                </div>
+                <div id="contact-infos">
+                    <div id="contact-email" class="detail">
+                        <span class="info">
+                            <a href="mailto:stanislas.brodin@gmail.com">
+                                <span class="info-symbol">&#9993;</span>&nbsp;<span class="info-text">stanislas.brodin@gmail.com</span>
+                            </a>
+                        </span>
+                    </div>
+                    <div id="contact-location" class="detail">
+                        <span class="info">
+                            <span class="info-symbol">&#x1F4CD;</span>
+                            <span class="info-text">Rennes, France</span>
+                        </span>
+                    </div>
+                    <div id="contact-linkedin" class="detail">
+                        <a href="https://www.linkedin.com/in/stanislas-brodin/" rel="noopener" target="_blank" title="LinkedIn Stanislas Brodin">
+                            <span class="info-symbol"><svg aria-hidden="true" class="linkedin-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></path></svg></span>&nbsp;<span class="info-text">Linkedin</span>
+                        </a>
+                    </div>
+                    <div id="contact-github" class="detail">
+                        <a href="https://github.com/sbrodin/" rel="noopener" target="_blank" title="Github sbrodin">
+                            <span class="info-symbol"><svg aria-hidden="true" class="github-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></span>&nbsp;<span class="info-text">Github</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <anchor id="experience"></anchor>
+        <section id="experience_section" class="row">
+            <div class="wrapper">
+                <div id="silamir" class="entreprise">
+                    <h2><img id="logo_silamir" class="logo-entreprise" src="logo_silamir.png" alt="Logo Silamir">&nbsp;Silamir - Leader technique</h2>
+                    <div class="date">Mars 2019 - Aujourd'hui</div>
+                    <h3>Développement web full stack</h3>
+                    <ul>
+                        <li>Maintenance corrective et développement d'évolutions</li>
+                        <li>Développement BackEnd</li>
+                        <li>Suivi de projet</li>
+                        <li>Organisation et animation de réunions</li>
+                        <li>Gestion du planning et des ressources</li>
+                    </ul>
+
+                    <h3>Environnement technique</h3>
+                    <ul class="ul-technos">
+                        <li>PHP</li>
+                        <li>Framework MVC</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>JQuery</li>
+                        <li>Twitter Bootstrap</li>
+                        <li>REST</li>
+                        <li>Git</li>
+                        <li>Gulp</li>
+                        <li>MySQL</li>
+                        <li>ElasticSearch</li>
+                        <li>Docker</li>
+                        <li>Agile Scrum</li>
+                    </ul>
+                </div>
+                <div id="bkg" class="entreprise">
+                    <h2><img id="logo_bkg" class="logo-entreprise" src="logo_bkg.png" alt="Logo BlueKanGo">&nbsp;BlueKanGo - Ingénieur R&D</h2>
+                    <div class="date">Avril 2017 - Février 2019</div>
+                    <h3>Développement web full stack</h3>
+                    <ul>
+                        <li>Architecture complexe (cohabitation de code historique et framework avec migration et refactoring)</li>
+                        <li>Tests unitaires</li>
+                        <li>Tests techniques</li>
+                        <li>Test de qualité de code</li>
+                        <li>Support technique</li>
+                        <li>Gestion de projet agile</li>
+                    </ul>
+                    <h3>Environnement technique</h3>
+                    <ul class="ul-technos">
+                        <li>PHP</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>CakePHP</li>
+                        <li>JavaScript</li>
+                        <li>JQuery</li>
+                        <li>ExtJS</li>
+                        <li>Twitter Bootstrap</li>
+                        <li>REST</li>
+                        <li>PHPUnit</li>
+                        <li>SVN</li>
+                        <li>Gulp</li>
+                        <li>MySQL</li>
+                        <li>ElasticSearch</li>
+                        <li>OpenDocument</li>
+                        <li>Agile Scrum</li>
+                        <li>Redmine</li>
+                    </ul>
+                </div>
+                <div id="globalis" class="entreprise">
+                    <h2><img id="logo_globalis" class="logo-entreprise" src="logo_globalis.png" alt="Logo Globalis media systems">&nbsp;Globalis media systems - Développeur web</h2>
+                    <div class="date">Juillet 2013 - Avril 2017</div>
+                    <h3>Projets forfait</h3>
+                    <ul>
+                        <li>Réalisation d'une application de gestion de portefeuilles financiers et de saisie d'opérations boursières</li>
+                        <li>Développement de fonctionnalités: formulaire de saisie d'opérations</li>
+                        <li>Intégration de la charte graphique en CSS3</li>
+                        <li>Ajout de graphiques Highcharts</li>
+                        <li>Environnement technique : framework PHP5, HTML5, CSS3, Highcharts</li>
+                    </ul>
+
+                    <ul>
+                        <li>Développement et maintenance d'une application de gestion des commandes et prévisions pour les clients internationaux</li>
+                        <li>Développement de fonctionnalités: administration, gestion des dates de réassort</li>
+                        <li>Maintenance fonctionnelle et graphique à la demande</li>
+                        <li>Environnement technique: LAMP, framework PHP5, CSS, intégration poussée avec l'ERP maison</li>
+                    </ul>
+
+                    <ul>
+                        <li>Développement d'une application mobile de calcul de temps de préparation de substance</li>
+                        <li>Développement de l'application: outil de calcul en fonction de paramètres entrés via des curseurs</li>
+                        <li>Intégration CSS</li>
+                        <li>Environnement technique : HTML5, CSS3, jQuery</li>
+                    </ul>
+
+                    <ul>
+                        <li>Réalisation d'une application de gestion d'activité pour holding</li>
+                        <li>Développement de fonctionnalités: trésorerie, administration générale du site</li>
+                        <li>Ajout de graphiques Highcharts</li>
+                        <li>Intégration de la charte graphique en CSS</li>
+                        <li>Environnement technique : framework PHP5, HTML5, CSS3, jQuery, Ajax, Git</li>
+                    </ul>
+                    <h3>Projets TMA</h3>
+                    <ul>
+                        <li>Documentation, réunions, maintenance - framework PHP5</li>
+                        <li>Migration de plugins de gestion des traductions - Wordpress</li>
+                        <li>Ajout de plugins, maintenance - SPIP</li>
+                        <li>Migration de sites, maintenance - Wordpress</li>
+                        <li>Maintenance - framework PHP5</li>
+                        <li>Maintenance FrontEnd et BackEnd</li>
+                    </ul>
+                </div>
+                <div id="psa" class="entreprise">
+                    <h2><img id="logo_psa" class="logo-entreprise" src="logo_psa.png" alt="Logo PSA Peugeot Citroën">&nbsp;PSA Peugeot Citroën - Développeur web</h2>
+                    <div class="date">Juin 2014 - Novembre 2015</div>
+                    <h3>Développement web full stack</h3>
+                    <ul>
+                        <li>Maintenance corrective et développements d'évolution : configurateur de véhicules utilitaires pour les marques Peugeot et Citroën</li>
+                        <li>Développement FrontEnd et intégration</li>
+                        <li>Environnement technique : HTML5, CSS3, JS, JQuery</li>
+                    </ul>
+
+                    <ul>
+                        <li>Développement d'une application permettant de simuler des appels d'urgence, et le traitement des réponses pour divers scénario</li>
+                        <li>Développement FrontEnd et intégration</li>
+                        <li>Environnement technique : PHP5, HTML5, CSS3, JS, JQuery</li>
+                    </ul>
+
+                    <ul>
+                        <li>Maintenance corrective et développements d'évolution : centre de gestion de la satisfaction des clients pour les points de vente et les ateliers Citroën</li>
+                        <li>Développement FrontEnd et intégration</li>
+                        <li>Environnement technique : HTML5, CSS3, JS, JQuery, librairie graphique raphael.js</li>
+                    </ul>
+
+                    <ul>
+                        <li>Maintenance corrective et développements d'évolution : configurateur de scooters Django pour la marque Peugeot</li>
+                        <li>Développement FrontEnd et intégration</li>
+                        <li>Environnement technique : HTML5, CSS3, JS, JQuery</li>
+                    </ul>
+
+                    <ul>
+                        <li>Développement d'une application de gestion et de visualisation de contenus et de playlists</li>
+                        <li>Développement BackEnd, FrontEnd et intégration</li>
+                        <li>Environnement technique: framework CodeIgniter, HTML5, CSS3, JS, JQuery</li>
+                    </ul>
+                </div>
+                <div id="porsolt" class="entreprise">
+                    <h2><img id="logo_porsolt" class="logo-entreprise" src="logo_porsolt.png" alt="Logo Porsolt">&nbsp;Porsolt - Chef de projet</h2>
+                    <div class="date">Octobre 2012 - Avril 2013</div>
+                    <h3>Développement d'un outil de planification et de gestion d'études en pharmacologie</h3>
+                    <h3>Développements réalisés</h3>
+                    <ul>
+                        <li>Affichage d'emplois du temps (salle, matériel, réservation, durée, etc.)</li>
+                        <li>Modification d'emploi du temps</li>
+                        <li>Gestion de l'administration (ajout de personnel, salle, matériel, etc.)</li>
+                    </ul>
+                    <h3>Compétences développées</h3>
+                    <ul>
+                        <li>Travail en équipe</li>
+                        <li>Encadrement des gestionnaires du planning et des directeurs d'études scientifiques</li>
+                        <li>Animation de réunions</li>
+                        <li>Présentations</li>
+                    </ul>
+                    <h3>Technologies utilisées</h3>
+                    <ul>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>Apache</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <anchor id="divers"></anchor>
+        <section id="divers_section" class="row">
+            <div class="wrapper">
+                <div id="connaissances">
+                    <h2>Informatique</h2>
+                    <h3>Outils</h3>
+                    <ul class="ul-technos">
+                        <li>Git</li>
+                        <li>SVN</li>
+                        <li>Sublime text</li>
+                        <li>Redmine</li>
+                        <li>Mantis</li>
+                        <li>JIRA</li>
+                    </ul>
+                    <h3>Langages</h3>
+                    <ul class="ul-technos">
+                        <li>PHP</li>
+                        <li>Javascript</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Caml</li>
+                        <li>Java</li>
+                        <li>UML</li>
+                        <li>XML</li>
+                    </ul>
+                    <h3>Frameworks et librairies</h3>
+                    <ul class="ul-technos">
+                        <li>CodeIgniter</li>
+                        <li>CakePHP</li>
+                        <li>Framework PHP 4, 5 & 7 <a href="https://github.com/globalis-ms/carbone" rel="noopener" target="_blank" title="Framework Carbone">Carbone</a></li>
+                        <li>Jpgraph</li>
+                        <li>ExtJS</li>
+                        <li>HighCharts</li>
+                        <li>FPDF</li>
+                        <li>ADODB</li>
+                    </ul>
+                    <h3>Environnement</h3>
+                    <ul>
+                        <li>Windows XP / Vista / 7 / 8</li>
+                        <li>Linux</li>
+                        <li>Utilisation des suites bureautiques</li>
+                    </ul>
+                </div>
+                <div id="langues">
+                    <h2>Langues</h2>
+                    <ul>
+                        <li>
+                            Anglais : bilingue (C2)
+                            <ul>
+                                <li>University of Cambridge First Certificate in English (2007)</li>
+                                <li>TOEIC 885/990 (2009)</li>
+                                <li>TOEFL iBT 91/120 (2011)</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Allemand : pratique occasionnelle (B1)
+                            <ul>
+                                <li>Goethe Institut Zertifikat Deutsch (2010)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="formation">
+                    <h2>Formation</h2>
+                    <div class="formation-detail">
+                        <h3>Diplôme d'ingénieur <a id="link_eseo" href="https://eseo.fr" rel="noopener" target="_blank" title="Site de l'ESEO">ESEO</a>, Option Traitement du Signal et Télécommunications</h3>
+                        <div class="date">2007-2013</div>
+                        <div class="location">Angers</div>
+                    </div>
+                    <div class="formation-detail">
+                        <h3>Master of Health Informatics à l'<a id="link_uow" href="https://https://www.uow.edu.au/index.html" rel="noopener" target="_blank" title="Site de l'Université de Wollongong">Université de Wollongong</a></h3>
+                        <div class="date">2011-2012</div>
+                        <div class="location">Australie</div>
+                    </div>
+                    <div class="formation-detail">
+                        <h3>Baccalauréat Scientifique, option Maths, mention Européenne</h3>
+                        <div class="date">2006-2007</div>
+                        <div class="location">Lycée Saint Vincent, Rennes</div>
+                    </div>
+                </div>
+                <div id="hobbies">
+                    <h2>Sport</h2>
+                    <ul>
+                        <li>Football</li>
+                        <li>Course à pied</li>
+                        <li>Cyclisme</li>
+                        <li>2009-2011 : Bureau des Sports ESEO, budget 40 000€</li>
+                    </ul>
+                    <h2>Voyage</h2>
+                    <ul class="ul-technos">
+                        <li>Australie</li>
+                        <li>Etats-Unis</li>
+                        <li>Tanzanie</li>
+                        <li>Sri Lanka</li>
+                        <li>Brésil</li>
+                        <li>Maroc</li>
+                        <li>Europe</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <anchor id="projets_persos"></anchor>
+        <section id="parfait" class="row projet">
+            <div class="wrapper">
+                <h2><img id="logo_12parfait" src="logo_12parfait.png" alt="Logo 12parfait">12parfait</h2>
+                <div>Application de pronostics sportifs entre amis</div>
+                <div class="links_app_github">
+                    <a href="https://12parfait.fr" class="button" rel="noopener" target="_blank" title="Accéder à l'application 12pafait">Accéder à l'application</a>
+                    <a href="https://github.com/sbrodin/12parfait" rel="noopener" target="_blank" title="Github 12parfait" aria-label="Github 12parfait">
+                        <svg aria-hidden="true" class="github-logo" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    </a>
+                </div>
+                <h3>Fonctionnalités principales</h3>
+                <ul>
+                    <li>Connexion sécurisée</li>
+                    <li>Sélection de matchs</li>
+                    <li>Enregistrement et édition de pronostics</li>
+                    <li>Administration des scores en direct</li>
+                    <li>Affichage des résultats</li>
+                    <li>Classement</li>
+                    <li>Administration des utilisateurs, championnats, équipes, matchs</li>
+                    <li>Gestion de droits utilisateurs</li>
+                </ul>
+            </div>
+        </section>
+        <section id="parfait_technos" class="row technos">
+            <div class="wrapper">
+                <h3>Technologies utilisées</h3>
+                <ul class="ul-technos">
+                    <li>Linux (Debian 8)</li>
+                    <li>Apache 2</li>
+                    <li>MySQL 5.5</li>
+                    <li>PHP 5.6, puis 7 (actuellement 7.3)</li>
+                    <li>HTML 5</li>
+                    <li>CSS 3</li>
+                    <li>Framework CodeIgniter (version 3.1)</li>
+                    <li>JQuery 3</li>
+                    <li>Bootstrap 4</li>
+                    <li>Font Awesome</li>
+                    <li>Chart.js</li>
+                </ul>
+            </div>
+        </section>
+        <section id="xmasgifts" class="row projet">
+            <div class="wrapper">
+                <h2>XmasGifts</h2>
+                <div>En cours de développement</div>
+                <div>Application pour gérer des tirages au sort de cadeaux entre amis (Secret Santa)</div>
+                <div class="links_app_github">
+                    <a href="https://xmasgifts.stanislas-brodin.fr" class="button" rel="noopener" target="_blank" title="Accéder à l'application XmasGifts">Accéder à l'application</a>
+                    <a href="https://github.com/sbrodin/XmasGifts" rel="noopener" target="_blank" title="Github XmasGifts" aria-label="Github XmasGifts">
+                        <svg aria-hidden="true" class="github-logo" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    </a>
+                </div>
+                <h3>Fonctionnalités principales</h3>
+                <ul>
+                    <li>Connexion sécurisée</li>
+                    <li>Administration des utilisateurs, des "liens" (qui offre à qui)</li>
+                    <li>Possibilité de proposer une "wish list"</li>
+                    <li>Gestion de droits utilisateurs</li>
+                </ul>
+            </div>
+        </section>
+        <section id="xmasgifts_technos" class="row technos">
+            <div class="wrapper">
+                <h3>Technologies utilisées</h3>
+                <ul class="ul-technos">
+                    <li>Linux (Debian 8)</li>
+                    <li>Apache 2</li>
+                    <li>MySQL 5.5</li>
+                    <li>PHP 5.6, puis 7 (actuellement 7.3)</li>
+                    <li>HTML 5</li>
+                    <li>CSS 3</li>
+                    <li>Framework CodeIgniter (version 3.1)</li>
+                    <li>JQuery 3</li>
+                    <li>Bootstrap 4</li>
+                </ul>
+            </div>
+        </section>
+        <section id="counter" class="row projet">
+            <div class="wrapper">
+                <h2><img id="logo_counter" src="logo_counter.png" alt="Logo Counter">Counter</h2>
+                <div>En cours de développement</div>
+                <div>Application compteur avec enregistrement de dates et statistiques</div>
+                <div class="links_app_github">
+                    <a href="https://counter.stanislas-brodin.fr" class="button" rel="noopener" target="_blank" title="Accéder à l'application Counter">Accéder à l'application</a>
+                    <a href="https://github.com/sbrodin/Counter" rel="noopener" target="_blank" title="Github Counter" aria-label="Github Counter">
+                        <svg aria-hidden="true" class="github-logo" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    </a>
+                </div>
+                <h3>Fonctionnalités principales</h3>
+                <ul>
+                    <li>Connexion via .htpasswd</li>
+                    <li>Ajout de compteur personnalisé (texte et couleur)</li>
+                    <li>Incrémentation et décrémentation avec enregistrement en base des dates</li>
+                    <li>Statistiques des enregistrements (par mois, jour de la semaine, horaire, etc.)</li>
+                </ul>
+            </div>
+        </section>
+        <section id="counter_technos" class="row technos">
+            <div class="wrapper">
+                <h3>Technologies utilisées</h3>
+                <ul class="ul-technos">
+                    <li>Linux (Debian 8)</li>
+                    <li>Apache 2</li>
+                    <li>MySQL 5.5</li>
+                    <li>PHP 7.3</li>
+                    <li>HTML 5</li>
+                    <li>CSS 3</li>
+                    <li>Vanilla JS</li>
+                    <li>Chart.js (statistiques)</li>
+                </ul>
+            </div>
+        </section>
+        <footer id="footer" class="row">
+            <div class="wrapper">
+                <ul class="menu-nav horizontal">
+                    <!-- <li>Copyright</li> -->
+                    <!-- <li>Contact</li> -->
+                    <li><a href="https://www.linkedin.com/in/stanislas-brodin/" rel="noopener" target="_blank" title="LinkedIn Stanislas Brodin">LinkedIn</a></li>
+                    <li><a href="https://github.com/sbrodin" rel="noopener" target="_blank" title="Github sbrodin">Github</a></li>
+                    <!-- <li>Mentions légales</li> -->
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
