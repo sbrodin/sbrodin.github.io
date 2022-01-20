@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: stanislas-brodin.fr
+Token: e01f94eeb69375ba834a4c54bf6efdc037b4fcc61d59a1269fd6a26f65ade012
