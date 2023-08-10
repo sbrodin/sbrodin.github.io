@@ -208,6 +208,9 @@ anchor {
   font-size: 1rem;
   margin-bottom: 0.5rem
 }
+#experience_section .date::before {
+  content: "\1F4C5";
+}
 #logo_porsolt,
 #logo_psa {
   width: 30px;
@@ -221,6 +224,12 @@ anchor {
 }
 #logo_bkg {
   width: 50px;
+}
+#logo_axyus {
+  width: 160px;
+  background-color: #CCC;
+  border-radius: 5px;
+  padding: 3px;
 }
 #presentation_section {
   padding-top: 10px;
