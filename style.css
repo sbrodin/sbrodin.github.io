@@ -162,6 +162,7 @@ anchor {
 }
 #experience_section {
   background-color: #fff;
+  padding-top: 0;
 }
 #experience_section .entreprise:last-of-type {
   border-bottom: none;
